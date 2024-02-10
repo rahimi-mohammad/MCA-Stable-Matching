@@ -8,3 +8,8 @@ Okay, here's a silly translation:
 a- We tell each node which frequency channel to use using a one-to-one matching approach. For this purpose, assume that each frequency channel ranks nodes based on energy level, and each node also ranks frequency channels based on its own channel utilization. (Note that the channel utilization of each frequency channel is determined independently between the receiver and a node, so in total we will have 100 independent utilizations in each transmission state.) Also, consider starting the algorithm once from the side of the nodes and then again from the side of the channels.
 
 b- Let's do part A using a matching matching many-to-one approach, so that at most two nodes can transmit on each frequency channel, and as a result, some frequency channels may remain unused.
+
+
+About stable matching algorithm
+
+[Men Courtship Algorithm]https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm
